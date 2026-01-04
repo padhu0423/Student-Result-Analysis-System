@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Student Result Analysis System</h2>
+
+    <form action="/predict" method="post">
+        <input type="number" name="maths" placeholder="Maths Marks" required>
+        <input type="number" name="science" placeholder="Science Marks" required>
+        <input type="number" name="english" placeholder="English Marks" required>
+        <input type="number" name="attendance" placeholder="Attendance %" required>
+        <button type="submit">Analyze Result</button>
+    </form>
+</body>
+</html>
